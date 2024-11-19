@@ -1,0 +1,200 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spextranet</title>
+  <style>
+    body {
+      font-family: Open Sans, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f7f7f7;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 1em;
+      text-align: center;
+    }
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: space-between;
+    }
+    nav li {
+      margin-right: 20px;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+    }
+    section {
+      padding: 2em;
+      background-color: #fff;
+      border-bottom: 1px solid #ddd;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    h1, h2 {
+      color: #333;
+    }
+    button {
+      background-color: #333;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #555;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 1em;
+      text-align: center;
+      clear: both;
+    }
+```
+[19/11, 02:30] Meta AI: Here is the combined code:
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spextranet</title>
+  <style>
+    body {
+      font-family: Open Sans, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f7f7f7;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 1em;
+      text-align: center;
+    }
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: space-between;
+    }
+    nav li {
+      margin-right: 20px;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+    }
+    section {
+      padding: 2em;
+      background-color: #fff;
+      border-bottom: 1px solid #ddd;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    h1, h2 {
+      color: #333;
+    }
+    button {
+      background-color: #333;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #555;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 1em;
+      text-align: center;
+      clear: both;
+    }
+    /* Custom styles for Spextranet */
+    .header-logo {
+      color: #ff0000; /* Red */
+    }
+    .background-ash {
+      background-color: #ccc; /* Ash */
+    }
+    .text-black {
+      color: #000; /* Black */
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <!--<li><a href="#about">About</a></li>-->
+        <li><a href="#services">Services</a></li>
+        <!--<li><a href="#portfolio">Portfolio</a></li>-->
+        <li><a href="#contact">Contact</a></li>
+        <!-- <li><a href="#" id="login-btn">Login</a></li>
+        <li><a href="#" id="signup-btn">Signup</a></li>-->
+      </ul>
+    </nav>
+  </header>
+  <!-- Hero Section -->
+  <section id="home">
+    <h1>Welcome to Spextranet</h1>
+    <p>Empowering Technology Solutions</p>
+    <button onclick="alert('Button clicked!')">Explore Our Services</button>
+  </section>
+  <!-- About Section -->
+  <!-- <section id="about">
+    <h2>About Us</h2>
+    <p>Brief overview of your company's founding and milestones</p>
+  </section>-->
+  <!-- Services Section -->
+  <section id="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Software Development</li>
+      <li>Computer Services</li>
+      <li>Consulting</li>
+      <li>Learn everything about software</li>
+    </ul>
+  </section>
+  <!-- Portfolio Section -->
+  <section id="portfolio">
+    <!-- <h2>Our Portfolio</h2>
+    <ul>
+      <li>Project 1</li>
+      <li>Project 2</li>
+      <li>Project 3</li>
+    </ul>-->
+  </section>
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Get in Touch</h2>
+    <form>
+      <!-- <input type="text" placeholder="Name">
+      <input type="email" placeholder="Email">
+      <textarea placeholder="Message"></textarea>
+      <button>Send</button>-->
+      Tel: +2349045772514
+      Email : Spextranet01@gmail.com
+    </form>
+  </section>
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2023 Spextranet</p>
+  </footer>
+</body>
+</html>
